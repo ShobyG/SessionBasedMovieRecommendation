@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Movies</title>
+</head>
+<body>
+    <h1>Selected Movies</h1>
+    <ul>
+        {% for movie in selected_movies %}
+            <li>{{ movie[0] }} - {{ movie[1] }}</li>
+        {% endfor %}
+    </ul>
+    <h1> Recommended Movies </h1>
+    <ul>
+        {% for movie in recommended %}
+            <li>{{ movie[0] }} - {{ movie[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
