@@ -2,9 +2,9 @@ Developed a web application with a Tensorflow Recommender-based model, that prov
 
 Dependencies:
 
-pip install -q tensorflow-recommenders 
-pip install pandas
-pip install flask
-pip install flask_wtf  # flask forms
+pip install -q tensorflow-recommenders \n
+pip install pandas \n
+pip install flask \n
+pip install flask_wtf  # flask forms \n
 
 Run : app.py to start the application locally.
