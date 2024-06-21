@@ -1,0 +1,23 @@
+feature {
+  name: "movie_id_list_seq"
+  value_count {
+    min: 20
+    max: 20
+  }
+  type: INT
+  int_domain {
+    name: "movie_id"
+    max: 3089
+    is_categorical: true
+  }
+  annotation {
+    tag: "categorical"
+    tag: "id"
+    tag: "item"
+    tag: "list"
+    extra_metadata {
+      type_url: "type.googleapis.com/google.protobuf.Struct"
+      value: "\n)\n\005_dims\022 2\036\n\0212\017\n\t\021\000\000\000\000\000\000\000\000\n\002\010\000\n\t\021\000\000\000\000\000\0004@\n\017\n\tis_ragged\022\002 \000\nG\n\017embedding_sizes\0224*2\n\026\n\tdimension\022\t\021\000\000\000\000\000\000b@\n\030\n\013cardinality\022\t\021\000\000\000\000\000$\250@\nj\n\010cat_path\022^\032\\/content/drive/MyDrive/movie_rec_transformer/workflow_etl/categories/unique.movie_id.parquet\n\033\n\016freq_threshold\022\t\021\000\000\000\000\000\000\000\000\n\034\n\017dtype_item_size\022\t\021\000\000\000\000\000\000P@\n\025\n\010max_size\022\t\021\000\000\000\000\000\000\000\000\n\021\n\013num_buckets\022\002\010\000\n\r\n\007is_list\022\002 \001"
+    }
+  }
+}

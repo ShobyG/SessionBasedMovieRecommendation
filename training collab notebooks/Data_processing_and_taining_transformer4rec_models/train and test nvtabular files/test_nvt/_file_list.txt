@@ -1,0 +1,2 @@
+1
+/content/drive/MyDrive/movie_rec_transformer/test_nvt/part_0.parquet
